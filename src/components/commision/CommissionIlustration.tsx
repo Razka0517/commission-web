@@ -21,6 +21,11 @@ export default function CommissionIllustration({ onOpenModal, onViewImage }: Pro
             A single or multiple character with complex background.<br/>
             Price can vary depending on complexity within the range.
           </p>
+          {/* --- ETA BADGE --- */}
+          <div className="flex items-center gap-2 text-sm text-zinc-500 mb-6 bg-zinc-50 px-3 py-2 rounded-lg w-fit border border-zinc-100">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span><strong>ETA:</strong> 2 Weeks - 1 Month</span>
+          </div>
           <div className="bg-deep-purple/5 text-deep-purple px-4 py-2 rounded-lg text-xs font-bold inline-block border border-deep-purple/10">
             *Please contact me first to discuss and negotiate!
           </div>

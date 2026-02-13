@@ -40,7 +40,7 @@ export default function TermsPage() {
             <ul className="space-y-4 text-sm leading-relaxed list-disc pl-4 marker:text-accent-red text-deep-purple font-medium">
                 <li>Prices are for personal use only. Commercial purpose 1.5 - 2x will be charged.</li>
                 <li>There are two types of payment, Full payment and Down Payment (minimum 50% for more than 100 USD purchase).</li>
-                <li className="text-accent-red font-bold">There will be an additional 5% tax fee for every transaction via Paypal.</li>
+                <li className="text-accent-red font-bold">There will be an additional 5% tax fee for every transaction via Paypal, this is for the platform fee</li>
                 <li className="text-accent-red font-bold">The price is in USD ($1 = Rp 8.000 for IDR conversion).</li>
                 <li>Pay the exact amount after the rough sketch is done.</li>
                 <li>Payments through <span className="text-accent-red font-bold">PayPal invoice</span>. For Indonesian, payments can be done through <span className="text-accent-red font-bold">MANDIRI and Gopay</span>.</li>
@@ -206,6 +206,7 @@ export default function TermsPage() {
         <motion.section variants={item} className="mb-20">
            <h2 className="text-3xl font-bold text-accent-red font-header mb-6 border-b-2 border-accent-red/10 pb-2">Cancellation &<br/>Refund Policy</h2>
            <ul className="space-y-4 text-sm text-deep-purple font-medium list-disc pl-4 marker:text-deep-purple">
+             <li>Every refunds will not be included with the platform fee tax you've paid</li>
              <li>You're not allowed a refund once I started working on the commission.</li>
              <li>If for any reason I am unable to start your commission, you will receive a full refund.</li>
              <li>If you cancel your order before I started it, you can get a full refund.</li>
