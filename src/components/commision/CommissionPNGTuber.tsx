@@ -174,7 +174,7 @@ export default function CommissionPNGTuber({ onOpenModal }: Props) {
                       <div className="text-[10px] text-zinc-500 mt-0.5">Complex animation</div>
                     </div>
                     <div className={`font-bold font-header ${selectedType === 'animated' ? 'text-accent-red' : 'text-deep-purple'}`}>
-                       {hasExtra ? '$115' : '$100'}
+                       {hasExtra ? '$165' : '$150'}
                     </div>
                   </motion.button>
 
@@ -215,7 +215,7 @@ export default function CommissionPNGTuber({ onOpenModal }: Props) {
                                 className="w-full bg-white border border-zinc-100 rounded-xl shadow-inner overflow-hidden"
                               >
                                  <button onClick={() => { setHasExtra(false); setIsDropdownOpen(false); }} className="w-full text-left px-4 py-3 hover:bg-zinc-50 flex items-center justify-between group border-b border-zinc-50">
-                                    <span className={`text-sm ${!hasExtra ? 'font-bold text-accent-red' : 'text-zinc-600'}`}>Base Model ($100)</span>
+                                    <span className={`text-sm ${!hasExtra ? 'font-bold text-accent-red' : 'text-zinc-600'}`}>Base Model ($150)</span>
                                     {!hasExtra && <span className="text-accent-red text-xs">✓</span>}
                                  </button>
                                  <button onClick={() => { setHasExtra(true); setIsDropdownOpen(false); }} className="w-full text-left px-4 py-3 hover:bg-zinc-50 flex items-center justify-between group">
